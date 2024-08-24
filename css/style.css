@@ -1,0 +1,86 @@
+body {
+    font-family: "Comic Neue", sans-serif;
+    background-image: url('https://storageciggallery.addons.business/15706/cig-cozy-gallery-89874e1-11-9-HK-1500x2000-C-s.png?c=00');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f6e2f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
+
+.button {
+    padding: 5px 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #3b3e40;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+
+.button:hover {
+    background-color: #bd88f9;
+}
+
+button.selected-option {
+    background-color: #bd88f9;
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: decimal;
+    padding: 10px;
+    margin: 10px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+#text {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold; 
+}
+
+
+#options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ #next-button {
+    display: block;
+    margin-top: 20px; 
+    cursor: pointer;
+
+} 
+
+#result-image {
+    display: block; 
+    margin: 20px;
+    max-width: 100%; 
+}
+

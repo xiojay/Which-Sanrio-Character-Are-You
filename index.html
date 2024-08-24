@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Which Sanrio Character Are You?</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="quiz-container" class="container">
+        <div id="intro">
+            <h1>Which Sanrio Character Are You?</h1>
+            <p>Answer the following questions to find out which Sanrio character matches your personality!</p>
+            <p><strong>Instructions:</strong></p>
+            <ul>
+                <li>Click "Start Quiz" to begin.</li>
+                <li>Answer the questions by selecting one of the options.</li>
+                <li>Click "Next" to proceed to the next question.</li>
+            </ul>
+            <button id="start-button" class="button">Start Quiz</button>
+        </div>
+        <div id="quiz-section" class="hidden">
+            <h2 id="text"></h2>
+            <div id="options"></div>
+            <button id="next-button" class="button hidden">Next</button>
+        </div>
+        <div id="result-section" class="hidden">
+            <h1>Result</h1>
+            <h4 id="result"></h4>
+            <img id="result-image" src="" alt="Sanrio Character" style="width: 300px; height: auto; margin: 10px 10px;">
+            <button id="restart-button" class="button">Play Again</button>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
