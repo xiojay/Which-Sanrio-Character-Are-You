@@ -2,7 +2,7 @@
 # Which Sanrio Character Are You?
 ### Welcome all fans of Sanrio and it's characters! 
 This game is designed to match your personality with one of the various Sanrio characters. 
-This is a quiz game, it will ask a series of questions and based on your answers it will match you with a Sanrio character. 
+This is a quiz game, and it will ask a series of questions and based on your answers it will match you with a Sanrio character. 
 
 *I chose this game because I love Sanrio characters and hope this would be a good way to practice the skills I have learned*
 ## Getting Started
