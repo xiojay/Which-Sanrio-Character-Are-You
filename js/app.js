@@ -97,7 +97,18 @@ let characterScores = {
 };
 
 let currentQuestionIndex = 0
-const chosenSanrioCharacter = 3
+const winResult = 3
+const buttonClickSound = document.getElementById('button-click')
+
+function playButtonClickSound() {
+    buttonClickSound.play()
+}
+
+function startQuiz() {
+    playButtonClickSound()
+    document.getElementById('intro').classList.add('hidden')
+    showQuestion()
+};
 
 function showQuestion() {
     const question = questions[currentQuestionIndex]
@@ -128,6 +139,7 @@ function getCharacterFromOption(option) {
 
 
 function selectOption(button, option) {
+    playButtonClickSound()
     const character = getCharacterFromOption(option)
     characterScores[character]++
 
@@ -135,8 +147,6 @@ function selectOption(button, option) {
     button.classList.add('selected-option')
     document.getElementById('next-button').classList.remove('hidden')
 };
-
-
 
 
 function showResult() {
@@ -151,7 +161,7 @@ function showResult() {
         }
     };
 
-    if (highestScore >= chosenSanrioCharacter) {
+    if (highestScore >= winResult) {
         winCondition = true;
         document.getElementById('result').innerText = `You are most similar to ${resultCharacter}!`
     } else {
@@ -166,12 +176,8 @@ function showResult() {
     document.getElementById('quiz-section').classList.add('hidden')
 };
 
-function startQuiz() {
-    document.getElementById('intro').classList.add('hidden')
-    showQuestion()
-};
-
 function restartQuiz() {
+    playButtonClickSound()
     characterScores = {
         'Hello Kitty': 0,
         'Kuromi': 0,
