@@ -4,10 +4,10 @@
 This game is designed to match your personality with one of the various Sanrio characters. 
 This is a quiz game, it will ask a series of questions and based on your answers it will match you with a Sanrio character. 
 
-*I choose this game because I love Sanrio characters and hope this would be a good way to practice the skills I have learned*
+*I chose this game because I love Sanrio characters and hope this would be a good way to practice the skills I have learned*
 ## Getting Started
-If you'd like to find out which Sanrio character you resemble the most, click here to play now 
->Visit my Trello board to see how I planned to make this game
+If you'd like to find out which Sanrio character you resemble the most, click [here](https://xiojay.github.io/Which-Sanrio-Character-Are-You/) to play now 
+>Visit my [Trello](https://trello.com/invite/b/66c3c3379c7d5caa90cddddb/ATTIadf89e5aaab18c7c790d2e5f00a4c39186672C3E/which-sanrio-character-are-you) board to see how I planned to make this game
 
 ## Attributions
 Some of my best friends during the process of making this game were: 
