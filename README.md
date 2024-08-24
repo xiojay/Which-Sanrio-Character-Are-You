@@ -11,6 +11,9 @@ If you'd like to find out which Sanrio character you resemble the most, click [h
 
 ## Attributions
 Some of my best friends during the process of making this game were: 
+- [MDN Web Docs](https://www.w3schools.com/)
+- [W3Schools](https://www.w3schools.com/)
+- [Stack Overflow](stackoverflow.com)
 
 
 ## Technologies
